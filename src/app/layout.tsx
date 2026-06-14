@@ -3,11 +3,14 @@ import { SiteNav } from "@/components/site/SiteNav";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import type { Metadata } from "next";
 
+export const viewport = {
+  themeColor: "#0f0d0a",
+};
+
 export const metadata: Metadata = {
   title: "Boddam Infra — Engineering the structures that move nations",
   description: "Boddam Infra designs, engineers and delivers bridges, energy, water and transit infrastructure. A specialist practice for clients who measure success in decades.",
   authors: [{ name: "Boddam Infrastructure" }],
-  themeColor: "#0f0d0a",
   openGraph: {
     siteName: "Boddam Infra",
     type: "website",
