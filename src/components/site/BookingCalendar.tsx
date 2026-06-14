@@ -79,7 +79,7 @@ export function BookingCalendar({ onConfirm }: { onConfirm?: (d: Date, t: string
           {date && selectedTime ? (
             confirmed ? (
               <span className="inline-flex items-center gap-2 text-accent font-tag">
-                <Check size={16} /> Confirmed — we'll email a calendar invite.
+                <Check size={16} /> Confirmed — we&apos;ll email a calendar invite.
               </span>
             ) : (
               <>

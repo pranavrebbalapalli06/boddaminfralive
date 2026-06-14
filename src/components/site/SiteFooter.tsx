@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
@@ -26,10 +26,10 @@ export function SiteFooter() {
               Navigate
             </div>
             <ul className="mt-5 space-y-3 text-sm">
-              <li><Link to="/about" className="hover:text-accent transition">Practice</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition">Capabilities</Link></li>
-              <li><Link to="/projects" className="hover:text-accent transition">Selected works</Link></li>
-              <li><Link to="/contact" className="hover:text-accent transition">Book a call</Link></li>
+              <li><Link href="/about" className="hover:text-accent transition">Practice</Link></li>
+              <li><Link href="/services" className="hover:text-accent transition">Capabilities</Link></li>
+              <li><Link href="/projects" className="hover:text-accent transition">Selected works</Link></li>
+              <li><Link href="/contact" className="hover:text-accent transition">Book a call</Link></li>
             </ul>
           </div>
 
