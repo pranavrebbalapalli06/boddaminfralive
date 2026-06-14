@@ -7,10 +7,10 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "/", label: "Index" },
-  { href: "/about", label: "Practice" },
-  { href: "/services", label: "Capabilities" },
-  { href: "/projects", label: "Works" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/services", label: "Services" },
+  { href: "/projects", label: "Projects" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
