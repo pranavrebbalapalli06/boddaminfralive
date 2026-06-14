@@ -26,7 +26,7 @@ export function SiteFooter() {
               Navigate
             </div>
             <ul className="mt-5 space-y-3 text-sm">
-              <li><Link href="/about" className="hover:text-accent transition">Company</Link></li>
+              <li><Link href="/about" className="hover:text-accent transition">About</Link></li>
               <li><Link href="/services" className="hover:text-accent transition">Capabilities</Link></li>
               <li><Link href="/projects" className="hover:text-accent transition">Selected works</Link></li>
               <li><Link href="/contact" className="hover:text-accent transition">Book a call</Link></li>
